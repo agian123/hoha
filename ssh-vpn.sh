@@ -382,6 +382,7 @@ wget -O running "https://raw.githubusercontent.com/sukirmanoke/project/main/runn
 wget -O cfd "https://raw.githubusercontent.com/agian123/gasken/main/cfd.sh"
 wget -O cff "https://raw.githubusercontent.com/agian123/gasken/main/cff.sh"
 wget -O cfh "https://raw.githubusercontent.com/agian123/gasken/main/cfh.sh"
+wget -O add-trgo "https://raw.githubusercontent.com/bokir-tampan/ranjau-darat/main/add-trgo.sh"
 chmod +x menu
 chmod +x l2tp
 chmod +x ssh
@@ -428,6 +429,8 @@ chmod +x running
 chmod +x cfd
 chmod +x cff
 chmod +x cfh
+chmod +x add-trgo
+dos2unix add-trgo
 echo "0 5 * * * root clear-log" >> /etc/crontab
 echo "0 0 * * * root xp" >> /etc/crontab
 # remove unnecessary files
